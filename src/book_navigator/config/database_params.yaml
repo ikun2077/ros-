@@ -1,0 +1,11 @@
+# 数据库配置
+database_path: "database/book_db.sqlite3"
+
+# 默认起点配置
+start_x: 0.0
+start_y: 0.0
+start_z: 0.0
+start_yaw: 0.0  # 单位：弧度
+
+# 坐标系设置
+map_frame: "map"

@@ -1,0 +1,5 @@
+# 串口通信配置
+port: "/dev/ttyUSB0"
+baud: 115200
+timeout: 1.0      # 单位：秒
+coord_precision: 3 # 坐标小数点位数

@@ -1,0 +1,18 @@
+
+# 相机内参矩阵
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [615.2, 0, 320.1, 0, 615.5, 240.7, 0, 0, 1]
+
+# 畸变系数
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.3025, 0.0743, -0.0012, 0.0003, 0.0]
+
+# 投影/矫正矩阵
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [536.0, 0, 320.0, 0, 0, 536.0, 240.0, 0, 0, 0, 1, 0]

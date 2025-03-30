@@ -1,0 +1,5 @@
+# Flask服务器配置
+flask_url: "http://192.168.1.100:5000/arrived"
+
+# 导航超时参数
+goal_timeout: 300  # 单位：秒
