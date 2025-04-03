@@ -7,11 +7,9 @@
     </node>
 
     <!-- 节点启动 -->
-    <node pkg="barcode_navigation" type="barcode_reader.py" name="barcode_reader"/>
-    <node pkg="barcode_navigation" type="database_handler.py" name="database_handler"/>
-    <node pkg="barcode_navigation" type="navigation_controller.py" name="navigation_controller"/>
-    <node pkg="barcode_navigation" type="serial_communicator.py" name="serial_communicator"/>
+    <node pkg="book_navigator" type="barcode_reader.py" name="barcode_reader"/>
+    <node pkg="book_navigator" type="database_handler.py" name="database_handler"/>
+    <node pkg="book_navigator" type="navigation_controller.py" name="navigation_controller"/>
+    <node pkg="book_navigator" type="serial_communicator.py" name="serial_communicator"/>
     
-    <!-- 导航配置 -->
-    <include file="$(find barcode_navigation)/launch/move_base.launch"/>
 </launch>
